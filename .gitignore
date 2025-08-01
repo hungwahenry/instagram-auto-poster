@@ -1,0 +1,107 @@
+# Instagram AutoPoster - Sensitive Data and Runtime Files
+
+# === SENSITIVE DATA - NEVER COMMIT ===
+# Session files contain Instagram login tokens
+sessions/
+*_session.json
+
+# Configuration contains passwords and API keys
+config.json
+config.json.backup
+config_backup_*.json
+
+# Commented posts tracking data
+commented_posts/
+*_commented.json
+
+# === LOGS AND RUNTIME ===
+# Application logs
+*.log
+autoposter.log
+bot_controller.log
+
+# Temporary config files
+current_config.json
+recent_*.log
+
+# === PYTHON ===
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+autoposter_env/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# === DEVELOPMENT TOOLS ===
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# === SYSTEM FILES ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# === DEPLOYMENT ===
+# Service files (created during deployment)
+autoposter.service
+autoposter-bot.service
+
+# === BACKUP FILES ===
+*.bak
+*.backup
+*.old

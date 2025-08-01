@@ -1,0 +1,10 @@
+# Instagram API wrapper
+instagrapi>=2.0.0
+
+# HTTP requests for Telegram API
+requests>=2.25.0
+
+# All other imports are Python standard library:
+# - json, os, sys, time, random, logging, subprocess, argparse
+# - datetime, pathlib, typing, dataclasses
+# - These are included with Python and don't need to be installed
