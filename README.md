@@ -280,5 +280,3 @@ For issues and questions:
 3. Open an issue on GitHub
 
 ---
-
-**Built with ❤️ for the Instagram automation community**
